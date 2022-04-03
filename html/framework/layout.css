@@ -4,7 +4,6 @@
 }
 
 
-
 /* Header */
 .page-header {
     display: flex;
@@ -40,7 +39,7 @@
 }
 
 .menu-nav li {
-    margin-left: 10%;
+    margin-left: 36px;
 }
 
 .menu-nav a {
@@ -72,6 +71,7 @@
     z-index: -1;
 }
 
+
 /* Main */
 .ly-main{
     width: auto;
@@ -80,7 +80,7 @@
 
 /* Wrapper */
 .wrapper {
-    max-width: 1100px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 4%;
 }
