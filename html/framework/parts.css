@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Button */
+.vs-button{
+    font-size: 1.375rem;
+    background: var(--button-back-color);
+    color: var(--button-font-color);
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+
+.vs-button:hover{
+    background-color: var(--accent-color);
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+:root {
+    --basefont-color: #444444;
+    --main-color: #3FAC7E;
+    --accent-color: #5FCC9E;
+    --hover-color: var(--accent-color);
+    --button-font-color: #ffffff;
+    --button-back-color: var(--main-color);
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: var(--basefont-color);
+}

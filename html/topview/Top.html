@@ -7,14 +7,21 @@
     <link rel="icon" type="image/png" href="/images/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS -->
+    <!-- Outbound CSS -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+
+    <!-- Inbound CSS -->
+    <link href="/framework/rootcss.css" rel="stylesheet">
+    <link href="/framework/layout.css" rel="stylesheet">
+    <link href="/framework/parts.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<main class="home background-big-picture">
-    <header class="page-header wrapper">
+
+<div class="ly-frame background-big">
+
+    <header class="ly-header page-header wrapper">
         <h1 class="header-logo">
             <a href="index.html">
                 <img class="logo" src="/images/logo.png" alt="vue-shop-logo">
@@ -29,11 +36,22 @@
             </ul>
         </nav>
     </header>
-    <div class="home-content wrapper">
-        <h2 class="page-title">Vue Shop Example</h2>
-        <p>VueJS to as many atanas as you like.</p>
-        <a class="button" href="shop.html">See the Items</a>
-    </div>
-</main>
+
+    <main class="ly-main">
+        <div class="home-content wrapper">
+            <h2 class="page-title">Vue Shop Example</h2>
+            <p>VueJS to as many atanas as you like.</p>
+            <a class="vs-button" href="shop.html">See the Items</a>
+        </div>
+    </main>
+
+    <footer class="ly-footer">
+        <div class="wrapper">
+            <p><small>&copy; 2022 デジタル開発事務所</small></p>
+        </div>
+    </footer>
+
+</div>
+
 </body>
 </html>

@@ -1,75 +1,9 @@
-@charset "UTF-8";
-
-:root {
-    --basefont-color: #444444;
-    --main-color: #3FAC7E;
-    --accent-color: #5FCC9E;
-    --hover-color: var(--accent-color);
-    --button-font-color: #ffffff;
-    --button-back-color: var(--main-color);
-}
-
-html {
-    font-size: 100%;
-}
-
-body {
-    font-family: "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
-    line-height: 1.7;
-    color: var(--basefont-color)
-}
-
-a {
-    text-decoration: none;
-    color: var(--main-color);
-    font-weight: bold;
-}
-
-img {
-    max-width: 100%;
-}
 
 
-/* Wrapper */
-.wrapper {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 4%;
-}
 
 
-/* Button */
-.button{
-    font-size: 1.375rem;
-    background: var(--button-back-color);
-    color: var(--button-font-color);
-    border-radius: 5px;
-    padding: 18px 32px;
-}
 
-.button:hover{
-    background-color: var(--accent-color);
-}
 
-/* Background Picture */
-.background-big-picture {
-    position: relative;
-    z-index: 0;
-    overflow: hidden;
-}
-
-.background-big-picture:before{
-    content: '';
-    background: inherit;
-    position: absolute;
-    filter: blur(4px) brightness(110%) saturate(50%) sepia(20%);
-    background: linear-gradient(white, lightseagreen);
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    z-index: -1;
-}
 
 
 /* Home */
@@ -89,58 +23,4 @@ img {
 .home-content p {
     font-size: 1.125rem;
     margin: 10px 0 42px;
-}
-
-
-
-/* Header */
-.page-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-top: 14px;
-    flex-wrap: nowrap;
-}
-
-.header-logo{
-    justify-content: stretch;
-    height: auto;
-    position: relative;
-}
-
-.logo {
-    content: '';
-    position: absolute;
-    top: 15px;
-    width: 50px;
-    height: auto;
-}
-
-.logo-title{
-    margin-left: 60px;
-}
-
-.menu-nav {
-    display: flex;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    list-style: none;
-}
-
-.menu-nav li {
-    margin-left: 10%;
-}
-
-.menu-nav a {
-    color: var(--main-color)
-}
-
-.menu-nav a:hover {
-    color: var(--hover-color)
-}
-
-
-/* NEWS */
-.bl-news {
-    /*background-image: ;*/
 }
